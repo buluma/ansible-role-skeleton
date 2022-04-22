@@ -3,6 +3,6 @@
 # Ansible managed
 #
 repository:
-  description: your role description
+  description: Ansible role .skeleton
   homepage: https://buluma.github.io/
   topics: skeleton, ansible, molecule, tox, playbook, hacktoberfest
