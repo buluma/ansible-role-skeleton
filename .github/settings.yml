@@ -5,4 +5,4 @@
 repository:
   description: your role description
   homepage: https://buluma.github.io/
-  topics: , ansible, molecule, tox, playbook, hacktoberfest
+  topics: skeleton, ansible, molecule, tox, playbook, hacktoberfest
