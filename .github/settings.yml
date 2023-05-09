@@ -5,4 +5,4 @@
 repository:
   description: Ansible role .skeleton
   homepage: https://buluma.github.io/
-  topics: skeleton, ansible, molecule, tox, playbook, hacktoberfest
+  topics: skeleton, ansible, molecule, tox, playbook
