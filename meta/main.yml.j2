@@ -1,11 +1,10 @@
 ---
 galaxy_info:
-  author: Michael Buluma
-  namespace: buluma
-  role_name: skeleton
-  description: Ansible role .skeleton
+  author: buluma
+  role_name: {{ role_name }}
+  description: Install and configure {{ role_name }} on your system.
   license: Apache-2.0
-  company: ShadowNet
+  company: none
   min_ansible_version: "2.10"
 
   platforms:
@@ -14,25 +13,27 @@ galaxy_info:
         - all
     - name: Amazon
       versions:
-        - Candidate
-    - name: EL
-      versions:
-        - 7
-        - 8
+        - all
     - name: Debian
+      versions:
+        - all
+    - name: EL
       versions:
         - all
     - name: Fedora
       versions:
         - all
-    - name: OpenSUSE
+    - name: opensuse
       versions:
         - all
     - name: Ubuntu
       versions:
         - all
+    - name: Kali
+      versions:
+        - all
 
   galaxy_tags:
-    - skeleton
+    - {{ role_name | replace('_', '') }}
 
 dependencies: []
