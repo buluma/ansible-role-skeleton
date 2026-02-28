@@ -1,5 +1,8 @@
 ---
+#
+# Ansible managed
+#
 repository:
-  description: Ansible role .skeleton
+  description: Install and configure skeleton on your system.
   homepage: https://buluma.github.io/
-  topics: skeleton, ansible, molecule, tox, playbook
+  topics: skeleton, ansible, molecule, playbook
