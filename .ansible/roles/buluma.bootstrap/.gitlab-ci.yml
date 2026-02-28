@@ -6,7 +6,7 @@ galaxy:
   script:
   - apt-get update -qq
   - apt-get -y -qq install ansible-core
-  - ansible-galaxy role import --api-key ${GALAXY_API_KEY} buluma 
+  - ansible-galaxy role import --api-key ${GALAXY_API_KEY} buluma
     ${CI_PROJECT_NAME}
 molecule:
   image: python:3.13
@@ -36,7 +36,7 @@ molecule:
   - apt-get update -qq
   - apt-get -y -qq install yamllint docker.io
   - mkdir -p /etc/docker
-  - echo 
+  - echo
     '{"features":{"buildkit":true},"exec-opts":["native.cgroupdriver=systemd"]}'
     > /etc/docker/daemon.json
   - service docker restart || true

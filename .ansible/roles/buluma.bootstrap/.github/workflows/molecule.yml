@@ -41,7 +41,7 @@ jobs:
         '
     - env:
         ANSIBLE_FORCE_COLOR: 1
-        ANSIBLE_ROLES_PATH: 
+        ANSIBLE_ROLES_PATH:
           ~/.ansible/roles:${GITHUB_WORKSPACE}/ansible-role-bootstrap
         PY_COLORS: 1
         image: ${{ matrix.distro.image }}

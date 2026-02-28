@@ -17,7 +17,7 @@
   when:
   - bootstrap_facts.rc == 0
   - bootstrap_distribution is not defined
-  - bootstrap_facts.stdout is regex('PRETTY_NAME=.'~ bootstrap_search[item] | 
+  - bootstrap_facts.stdout is regex('PRETTY_NAME=.'~ bootstrap_search[item] |
     default(item) ~'.*')
 - ansible.builtin.set_fact:
     bootstrap_os_family: '{{ item.key }}'

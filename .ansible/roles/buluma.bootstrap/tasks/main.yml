@@ -35,9 +35,9 @@
     args:
       executable: /bin/sh
     changed_when:
-    - (bootstrap_install.stdout_regex in bootstrap_install_packages.stdout and 
-      bootstrap_os_family in [ "Alpine", "Archlinux", "Gentoo" ]) or 
-      (bootstrap_install.stdout_regex not in bootstrap_install_packages.stdout 
+    - (bootstrap_install.stdout_regex in bootstrap_install_packages.stdout and
+      bootstrap_os_family in [ "Alpine", "Archlinux", "Gentoo" ]) or
+      (bootstrap_install.stdout_regex not in bootstrap_install_packages.stdout
       and bootstrap_os_family in [ "Debian", "RedHat", "Rocky", "Suse" ])
     name: Install bootstrap packages (raw)
     register: bootstrap_install_packages
