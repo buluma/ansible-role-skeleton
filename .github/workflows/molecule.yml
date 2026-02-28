@@ -15,10 +15,9 @@ on:
       - master
       - main
   schedule:
-    - cron: '37 19 19 * *'
+    - cron: "37 19 19 * *"
 
   workflow_dispatch:
-
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
   cancel-in-progress: true
