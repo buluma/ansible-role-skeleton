@@ -1,7 +1,4 @@
 ---
-#
-# Ansible managed
-#
 repository:
   description: Ansible role .skeleton
   homepage: https://buluma.github.io/

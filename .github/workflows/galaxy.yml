@@ -1,18 +1,17 @@
 ---
-#
-# Ansible managed
-#
-
 name: Release to Ansible Galaxy
-
-on:
+true:
   release:
-    types: [created, edited, published, released]
+    types:
+    - created
+    - edited
+    - published
+    - released
 jobs:
   release:
     runs-on: ubuntu-20.04
     steps:
-      - name: galaxy
-        uses: buluma/galaxy-action@v6.25.22
-        with:
-          galaxy_api_key: ${{ secrets.galaxy_api_key }}
+    - name: galaxy
+      uses: buluma/galaxy-action@v10.30.23
+      with:
+        galaxy_api_key: ${{ secrets.galaxy_api_key }}
