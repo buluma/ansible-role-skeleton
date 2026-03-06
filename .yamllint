@@ -17,4 +17,5 @@ rules:
   comments-indentation: false
 
 ignore: |
+  .ansible/
   .cache/
