@@ -32,7 +32,7 @@ jobs:
         : true\n  },\n  \"exec-opts\": [\"native.cgroupdriver=systemd\"]\n}' | sudo
         tee /etc/docker/daemon.json\nsudo systemctl restart docker || true\n"
     - name: Install Docker
-      uses: docker/setup-buildx-action@v3
+      uses: docker/setup-buildx-action@v4
     - name: Install dependencies
       run: 'python -m pip install --upgrade pip
 
