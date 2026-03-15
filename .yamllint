@@ -18,4 +18,3 @@ rules:
 
 ignore: |
   .cache/
-  .ansible/roles/
