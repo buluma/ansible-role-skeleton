@@ -28,19 +28,19 @@
     - sudo -V
     name: Check sudo configuration
     register: sudo_check
-    when: ansible_distribution == "Fedora"
+    when: ansible_facts.distribution == "Fedora"
   - ansible.builtin.debug:
       var: sudo_check
     name: Show sudo configuration
-    when: ansible_distribution == "Fedora"
+    when: ansible_facts.distribution == "Fedora"
   - ansible.builtin.command:
       cmd: cat /etc/sudoers
     changed_when: false
     ignore_errors: true
     name: Check sudoers file
     register: sudoers_content
-    when: ansible_distribution == "Fedora"
+    when: ansible_facts.distribution == "Fedora"
   - ansible.builtin.debug:
       var: sudoers_content
     name: Show sudoers content
-    when: ansible_distribution == "Fedora"
+    when: ansible_facts.distribution == "Fedora"
