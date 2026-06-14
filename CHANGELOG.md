@@ -1,11 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-skeleton/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-skeleton/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-skeleton/compare/00e859f498793a1a48036b5b210fa8e114c62041...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-skeleton/compare/00e859f498793a1a48036b5b210fa8e114c62041...26.6.0)
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#11](https://github.com/buluma/ansible-role-skeleton/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 2.4.0 to 3.0.0 [\#2](https://github.com/buluma/ansible-role-skeleton/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 
