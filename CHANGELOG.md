@@ -1,5 +1,13 @@
 # Changelog
 
+## [26.6.2](https://github.com/buluma/ansible-role-skeleton/tree/26.6.2) (2026-07-21)
+
+[Full Changelog](https://github.com/buluma/ansible-role-skeleton/compare/26.6.1...26.6.2)
+
+## [26.6.1](https://github.com/buluma/ansible-role-skeleton/tree/26.6.1) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-skeleton/compare/26.6.0...26.6.1)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-skeleton/tree/26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-skeleton/compare/00e859f498793a1a48036b5b210fa8e114c62041...26.6.0)
