@@ -1,7 +1,0 @@
----
-- become: true
-  gather_facts: false
-  hosts: all
-  name: Converge
-  roles:
-  - role: buluma.bootstrap

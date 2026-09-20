@@ -1,4 +1,0 @@
----
-bootstrap_become: false
-bootstrap_timeout: 3
-bootstrap_wait_for_host: false
