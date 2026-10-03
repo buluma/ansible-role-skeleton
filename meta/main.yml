@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   author: buluma
+  namespace: buluma
   role_name: skeleton
   description: Install and configure skeleton on your system.
   license: Apache-2.0
